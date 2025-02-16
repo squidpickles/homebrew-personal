@@ -8,6 +8,8 @@ cask "simplicity-studio" do
     homepage "https://www.silabs.com/developers/simplicity-studio"
   
     app "Simplicity Studio.app"
+
+    auto_updates true
   
     zap trash: [
       "~/Library/Application Support/SimplicityStudio",
